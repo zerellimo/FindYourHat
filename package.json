@@ -1,5 +1,5 @@
 {
-  "name": "find-your-hat",
+  "name": "@zerellimo/findyourhat",
   "version": "1.0.0",
   "description": "A node terminal maze-solving game",
   "main": "main.js",
