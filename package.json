@@ -2,13 +2,14 @@
   "name": "@zerellimo/findyourhat",
   "version": "1.0.0",
   "description": "A node terminal maze-solving game",
-  "main": "main.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,8 @@
   },
   "devDependencies": {
     "mocha": "^10.1.0"
+  },
+  "bin": {
+    "findyourhat": "index.js"
   }
 }
