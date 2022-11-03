@@ -27,7 +27,9 @@
   },
   "homepage": "https://github.com/zerellimo/FindYourHat#readme",
   "dependencies": {
-    "mocha": "^10.1.0",
     "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0"
   }
 }
