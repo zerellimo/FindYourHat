@@ -1,0 +1,33 @@
+{
+  "name": "find-your-hat",
+  "version": "1.0.0",
+  "description": "A node terminal maze-solving game",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerellimo/FindYourHat.git"
+  },
+  "keywords": [
+    "node",
+    "terminal",
+    "game",
+    "javascript"
+  ],
+  "author": "Moez Ezzerelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerellimo/FindYourHat/issues"
+  },
+  "homepage": "https://github.com/zerellimo/FindYourHat#readme",
+  "dependencies": {
+    "mocha": "^10.1.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
